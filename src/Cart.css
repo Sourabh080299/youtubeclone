@@ -1,0 +1,29 @@
+.CartContainer{
+    margin: 12px;
+    width: 22%;
+    height: 34%;
+  
+  }
+  .CartContainer .Vedio{
+    width: 99%;
+    height: 60%; 
+  }
+
+  @media only screen and (max-width:1140px){
+    .CartContainer{
+      width:28%;
+    }
+  }
+  @media only screen and (max-width:890px){
+    .CartContainer{
+      width:45%;
+    }
+  }
+  @media only screen and (max-width:510px){
+    .CartContainer{
+      width:80%;
+      height: 40%;
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+  }

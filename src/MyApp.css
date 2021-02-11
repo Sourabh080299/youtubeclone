@@ -1,0 +1,26 @@
+.ContainerMyApp{
+    padding: 4px;
+    padding-top: 10px;
+    background-color: rgb(29, 31, 29);
+    border: 2px solid rgb(46, 48, 46);
+    position: absolute;
+    right: 80px;
+    opacity: 0.98;
+    color: white;
+}
+.ContainerMyApp div{
+    height: 40px;
+    padding-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.ContainerMyApp div:hover{
+      background-color: rgb(63, 65, 63);
+}
+.ContainerMyApp #Icon{
+    margin-right: 20px;
+}
+.ContainerMyApp #Cross{
+    margin-left: 80%;
+    color: rgb(254, 255, 254);
+}

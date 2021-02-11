@@ -1,0 +1,27 @@
+.ContainerNotification{
+    width: 480px;
+   
+    padding-top: 10px;
+    background-color: rgb(29, 31, 29);
+    border: 2px solid rgb(46, 48, 46);
+    position: absolute;
+    right: 15px;
+    opacity: 0.98;
+    color: white;
+}
+.ContainerNotification div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.ContainerNotification #Icon{
+   margin-right: 10px;
+}
+.ContainerNotification div:hover{
+    background-color: rgb(63, 65, 63); ;
+}
+.ContainerNotification #Cross{
+    margin-left: 80%;
+    color: rgb(251, 255, 254);
+}
+
+

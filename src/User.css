@@ -1,0 +1,30 @@
+.Container{
+    width: 300px;
+    height: 650px;
+    padding-top: 10px;
+    background-color: rgb(29, 31, 29);
+    border: 2px solid rgb(46, 48, 46);
+    position: absolute;
+    right: 15px;
+    opacity: 0.98;
+    color: white;
+}
+.Container inner{
+    padding: 10px;    
+}
+.Container .inner{
+    text-align: center;
+    height: 50px;
+    padding: 15px;
+}
+.Container .inner:hover{
+    background-color: rgb(63, 65, 63) ;
+    opacity: 1;
+}
+#Icon{
+    float: left;
+}
+.Container #Cross{
+    margin-left: 80%;
+    color: rgb(251, 255, 254);
+}

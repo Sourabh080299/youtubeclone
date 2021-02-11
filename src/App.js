@@ -4,7 +4,7 @@ import {Switch,Route} from 'react-router-dom';
  const App=()=>{
    return<div>
              <Switch>
-               <Route exact path='/home' component={Home}></Route>
+               <Route exact path='/' component={Home}></Route>
              </Switch> 
              
          </div>
